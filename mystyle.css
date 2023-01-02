@@ -1,0 +1,43 @@
+:root {
+    --white-color: #fff;
+    --text-color: #333;
+}
+/* Css Index
+--------------------------
+1. Header
+
+*/
+
+
+/*1. Header */
+/* Topbar */
+.topbar-bg {
+    background: linear-gradient(180deg, #193152 1.02%, #1F3451 26.94%, #243E54 52.1%, #225262 94.02%, #205464 111.56%);
+}
+
+.topbar-icon-color {
+    color: #DCFFFB;
+}
+
+.btn:hover, a:hover {
+    color: #4CC1C9;
+}
+
+@media (max-width: 786px) {
+    .topbar {
+        display: none;
+    }
+}
+
+/* Navbar */
+.navbar-bg {
+    background: linear-gradient(180deg, #05B0BA 10.17%, #079FA5 33.8%, #0A817F 65.82%, #037964 95.55%);
+}
+
+.navbar__logo-center {
+    position: absolute;
+    z-index: 2;
+    top: -50%;
+    transform: translateY(-14%);
+}
+
